@@ -1,0 +1,154 @@
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 40px;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+      list-style: square;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    .nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .nav button {
+      margin: 5px;
+      padding: 10px 20px;
+      background: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .nav button:hover {
+      background: #2980b9;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footer-column {
+    width: 20%;
+    min-width: 180px;
+    margin-bottom: 20px;
+  }
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  .footer-column select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  .social-icons a {
+    margin-right: 10px;
+  }
+  .social-icons img {
+    width: 20px;
+    height: 20px;
+  }
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    margin: 20px 0;
+  }
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  .footer-bottom a:hover {
+    color: #fff;
+  }
+  .footer-column > h3 {
+    font-style: normal;
+  }
+  .fa-brands {
+    font-size: 2rem;
+  }
+  .menu-button:hover .bar>i{
+    color: #000;
+  }
+  .text{
+    text-align: justify;
+  }

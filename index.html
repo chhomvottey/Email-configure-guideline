@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <script
+      src="https://kit.fontawesome.com/0822a4a647.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>Email Setup Guide</title>
+</head>
+<body>
+  <header>
+    <h1>Email Setup Guide for Chhomvottey2@gmail.com</h1>
+  </header>
+
+  <main>
+    <div class="nav">
+      <button onclick="showSection('thunderbird')">Thunderbird</button>
+      <button onclick="showSection('outlook')">Outlook</button>
+      <button onclick="showSection('gmail')">Gmail Send As</button>
+    </div>
+
+    <section id="thunderbird" class="section active">
+      <h2>How to Set Up Mozilla Thunderbird</h2>
+      <ol>
+        <li>Download and install Thunderbird from <a href="https://www.thunderbird.net" target="_blank">thunderbird.net</a></li>
+        <li>Open Thunderbird and click “Set up an existing email account”</li>
+        <li>Enter:
+          <ul>
+            <li>Name: Chhorm Botomvottey</li>
+            <li>Email: Chhomvottey2@gmail.com</li>
+            <li>Password: VotteyRupp@1234</li>
+          </ul>
+        </li>
+        <li>Choose Manual config and set:
+          <ul>
+            <li>IMAP: imap.your-host.com, Port: 993, SSL: SSL/TLS</li>
+            <li>SMTP: smtp.your-host.com, Port: 465, SSL: SSL/TLS</li>
+          </ul>
+        </li>
+        <li>Click Done</li>
+      </ol>
+    </section>
+
+    <section id="outlook" class="section">
+      <h2>How to Set Up Microsoft Outlook</h2>
+      <ol>
+        <li>Open Outlook → File → Add Account</li>
+        <li>Choose “Manual setup” → “POP or IMAP”</li>
+        <li>Fill in:
+          <ul>
+            <li>Email: demo@your-name.com</li>
+            <li>Account Type: IMAP</li>
+            <li>Incoming mail server: imap.your-host.com</li>
+            <li>Outgoing mail server: smtp.your-host.com</li>
+            <li>Password: your password</li>
+          </ul>
+        </li>
+        <li>Click “More Settings” → “Outgoing Server” → Check “My outgoing server requires authentication”</li>
+        <li>Click Next → Finish</li>
+      </ol>
+    </section>
+
+    <section id="gmail" class="section">
+      <h2>How to Use Gmail “Send As” Feature</h2>
+      <ol>
+        <li>Login to Gmail → Settings → See all settings → Accounts and Import</li>
+        <li>Click “Add another email address”</li>
+        <li>Enter:
+          <ul>
+            <li>Name: Chhorm Botomvottey</li>
+            <li>Email: Chhomvottey2@gmail.com</li>
+          </ul>
+        </li>
+        <li>SMTP Server: smtp.your-host.com, Port: 465, Username: demo@your-name.com, Password: your password</li>
+        <li>Click “Add Account”</li>
+        <li>Confirm via the verification email</li>
+      </ol>
+    </section>
+  </main>
+  <footer>
+      <div class="footer-container">
+          <div class="footer-column">
+              <h3>Mozilla</h3>
+              <ul>
+                  <li><a href="#">Report Trademark Abuse</a></li>
+                  <li><a href="#">Source Code</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Join our Community</a></li>
+                  <li><a href="#">Explore Help Articles</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-column">
+              <h3>ThunderBird</h3>
+              <ul>
+                  <li><a href="#">Download</a></li>
+                  <li><a href="#">ThunderBird Desktop</a></li>
+                  <li><a href="#">Android Browser</a></li>
+                  <li><a href="#">iOS Browser</a></li>
+                  <li><a href="#">Focus Browser</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-column">
+              <h3>ThunderBird for Developer</h3>
+              <ul>
+                  <li><a href="#">Developer Edition</a></li>
+                  <li><a href="#">Beta</a></li>
+                  <li><a href="#">Beta for Android</a></li>
+                  <li><a href="#">Nightly</a></li>
+                  <li><a href="#">Nightly for Android</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-column">
+              <h3>Mozilla Account</h3>
+              <ul>
+                  <li><a href="#">Sign In/Up</a></li>
+                  <li><a href="#">What Is It?</a></li>
+                  <li><a href="#">Reset Password</a></li>
+                  <li><a href="#">Sync Your Data</a></li>
+                  <li><a href="#">Get Help</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-column">
+              <h3>Language</h3>
+              <select style="cursor: pointer;">
+                  <option>English</option>
+                  <option>Spanish</option>
+                  <option>French</option>
+                  <option>Khmer</option>
+              </select>
+              <div class="social-icons">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      <hr>
+      <div class="footer-bottom">
+          <p>© 1998-2025 Mozilla Contributors. Content available under a Creative Commons license.</p>
+          <a href="#">mozilla.org</a> | 
+          <a href="#">Terms of Service</a> | 
+          <a href="#">Privacy</a> | 
+          <a href="#">Cookies</a> | 
+          <a href="#">Contact</a>
+      </div>
+  </footer>
+
+  <!-- <footer>
+    &copy; 2025 Chhorm Botomvottey. All rights reserved.
+  </footer> -->
+
+  
+</body>
+<script src="main.js"></script>
+</html>
